@@ -1,0 +1,43 @@
+LOG_QUERIES = False
+LOG_NOT_FOUND = False
+FIELDS = [
+    {'key': 'name', 'boost': 4, 'null': False},
+    {'key': 'code'},
+]
+QUERY_PROCESSORS_PYPATHS = []
+SEARCH_RESULT_PROCESSORS_PYPATHS = [
+    'addok_idcc.utils.make_labels',
+    'addok.helpers.results.score_by_autocomplete_distance',
+    'addok.helpers.results.score_by_ngram_distance',
+]
+PROCESSORS_PYPATHS = [
+    'addok.helpers.text.tokenize',
+    'addok.helpers.text.normalize',
+    'addok.helpers.text.synonymize',
+    'addok_trigrams.trigramize',
+]
+RESULTS_COLLECTORS_PYPATHS = [
+    'addok.helpers.collectors.only_commons',
+    'addok.helpers.collectors.bucket_with_meaningful',
+    'addok.helpers.collectors.reduce_with_other_commons',
+    'addok.helpers.collectors.ensure_geohash_results_are_included_if_center_is_given',  # noqa
+    'addok_trigrams.extend_results_removing_numbers',
+    'addok_trigrams.extend_results_removing_one_whole_word',
+    'addok_trigrams.extend_results_removing_successive_trigrams',
+]
+BATCH_PROCESSORS_PYPATHS = [
+    # 'addok_idcc.utils.prepare_document',
+    'addok.ds.store_documents',
+    'addok.helpers.index.index_documents',
+]
+
+BATCH_FILE_LOADER_PYPATH = 'addok.helpers.load_csv_file'
+
+INDEXERS_PYPATHS = [
+    'addok.helpers.index.HousenumbersIndexer',
+    'addok.helpers.index.FieldsIndexer',
+    'addok.helpers.index.FiltersIndexer',
+]
+RESULTS_FORMATTERS_PYPATHS = [
+    'addok_idcc.utils.format_result',
+]
