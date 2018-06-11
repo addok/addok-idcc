@@ -470,11 +470,10 @@ code;name
 3127;Convention collective nationale des services à la personne du 20 septembre 2012
 3128;Convention collective régionale des employés, techniciens et agents de maîtrise du bâtiment, des travaux publics et des industries et activités connexes de la Guyane
 3144;Convention collective ETAM du bâtiment et des travaux publics de la Guadeloupe
-3151;Convention collective nationale des industries de la fabrication de la chaux
 3160;Convention collective nationale des associations de gestion et de comptabilité
 3168;Convention collective Nationale des professions de la photographie
 3203;Convention collective des structures associatives de pêche de loisir et de protection du milieu aquatique
-3204;Convention collective régionale des ouvriers du bâtiment, des travaux publics et des industries et activités connexes de la Guyane
+3204;Convention collective régionale des ingénieurs et cadres du bâtiment, des travaux publics et des industries et activités connexes de la Guyane
 3205;Convention collective nationale du personnel des coopératives de consommation
 3206;Convention collective du personnel des cabinets médicaux de Martinique
 3207;Convention collective des transports sanitaires de Guadeloupe
@@ -491,6 +490,7 @@ code;name
 3223;Convention collective nationale des officiers des entreprises de transport et services maritimes
 3224;"Convention collective nationale de la distribution des papiers-cartons ; commerce de gros"
 3225;Convention collective nationale des employés et des cadres des éditeurs de la presse magazine
+3227;Convention collective nationale des industries de la fabrication de la chaux
 5001;Statut des industries électriques et gazières
 5002;Statut du Mineur
 5003;Statut de la Fonction publique d'État
@@ -728,7 +728,7 @@ code;name
 9111;Convention collective départementale des exploitations agricoles zone céréalière Aude
 9112;Convention collective départementale des exploitations agricoles zone viticole Aude
 9121;Convention collective départementale des exploitations agricoles Aveyron
-9131;Convention collective départementale des exploitations agricoles Bouches du Rhône exécutants
+9131;Convention collective départementale des exploitations agricoles Bouches du Rhône
 9141;Convention collective départementale des exploitations polyculture et CUMA Calvados
 9142;Convention collective départementale des exploitations horticoles fruits Calvados
 9151;Convention collective départementale des exploitations polyculture Cantal
