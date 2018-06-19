@@ -40,3 +40,4 @@ INDEXERS_PYPATHS = [
 RESULTS_FORMATTERS_PYPATHS = [
     'addok_idcc.utils.format_result',
 ]
+TRIGRAM_SKIP_DIGIT = False
