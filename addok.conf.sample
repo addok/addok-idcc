@@ -26,6 +26,7 @@ RESULTS_COLLECTORS_PYPATHS = [
     'addok_trigrams.extend_results_removing_successive_trigrams',
 ]
 BATCH_PROCESSORS_PYPATHS = [
+    'addok_idcc.utils.filter_documents',
     'addok.ds.store_documents',
     'addok.helpers.index.index_documents',
 ]
